@@ -1,0 +1,117 @@
+body{
+    background-color: black;
+    color: white;
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.main__title{
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 46px 0;
+}
+
+.header{
+    display: flex;
+    background-color: #05080a;
+    padding: 16px;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.header__logo{
+    text-transform: uppercase;
+    font-size: 36px;
+    margin-left: 16px;
+    letter-spacing: 2px;
+}
+
+.header__nav ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 16px;
+    gap:5px
+}
+
+.header__nav a{
+    color: white;
+    text-decoration: none;
+    padding: 16px;
+}
+
+.header__nav a:hover{
+    text-decoration: underline;
+}
+    
+a.header__nav--action{
+    background-color: rgb(179, 255, 0);
+    border-radius: 6px;
+    color: black;
+    pointer-events:none;
+}
+
+.pricing{
+    display: flex;
+    gap: 16px;
+}
+
+.pricing__plan{
+    background-color: #1f262c;
+    padding: 30px;
+    border-radius: 6px;
+    flex: 1;
+    box-shadow: 0 5px 12px #111314;
+    display: flex;
+    flex-direction: column;
+}
+
+.pricing__plan__title{
+letter-spacing:2px;
+text-transform: uppercase;
+border-bottom: solid 2px rgb(179, 255, 0);
+line-height: 1.8;
+font-size: 23px;
+}
+
+.pricing__plan p{
+margin-top: 0;
+}
+
+
+.pricing__plan__price{
+    font-size: 30px;
+}
+
+.pricing__plan__features{
+    margin: 0 0 35px;
+    color: #b5b5b5 ;
+    padding-left: 18px;
+    line-height: 1.8;
+    flex-grow: 1;
+}
+
+.pricing__plan__features li::marker{
+    color:rgb(179, 255, 0);
+}
+
+.princing__plan__cta{
+    text-decoration: none;
+    color: #0c1014;;
+    background-color:rgb(179, 255, 0);
+    border-radius: 6px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 16px 10px;
+    text-align: center;
+    
+}
+
+.princing__plan__cta:hover{
+    outline: 2px solid rgb(179, 255, 0);
+    background-color: transparent;
+    color: white;
+}
